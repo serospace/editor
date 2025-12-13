@@ -187,7 +187,7 @@ export function RichTextEditor({
         },
         editorProps: {
             attributes: {
-                class: 'sero-prose focus:outline-none min-h-[400px] max-w-none',
+                class: 'seoro-prose focus:outline-none min-h-[400px] max-w-none',
                 style: 'font-size: 16px;',
             },
         },

@@ -1,6 +1,6 @@
 /* Shared typography rules applied to editor/content outputs */
 
-.sero-prose,
+.seoro-prose,
 .tiptap,
 .prose-content,
 .prose {
@@ -10,7 +10,7 @@
   font-size: 16px;
 }
 
-.sero-prose h1,
+.seoro-prose h1,
 .tiptap h1,
 .prose-content h1,
 .prose h1 {
@@ -20,7 +20,7 @@
   margin: 1.4em 0 0.6em;
 }
 
-.sero-prose h2,
+.seoro-prose h2,
 .tiptap h2,
 .prose-content h2,
 .prose h2 {
@@ -30,7 +30,7 @@
   margin: 1.2em 0 0.6em;
 }
 
-.sero-prose h3,
+.seoro-prose h3,
 .tiptap h3,
 .prose-content h3,
 .prose h3 {
@@ -40,7 +40,7 @@
   margin: 1em 0 0.5em;
 }
 
-.sero-prose p,
+.seoro-prose p,
 .tiptap p,
 .prose-content p,
 .prose p {
@@ -48,7 +48,7 @@
   color: #0f172a;
 }
 
-.sero-prose a,
+.seoro-prose a,
 .tiptap a,
 .prose-content a,
 .prose a {
@@ -57,7 +57,7 @@
   text-underline-offset: 2px;
 }
 
-.sero-prose blockquote,
+.seoro-prose blockquote,
 .tiptap blockquote,
 .prose-content blockquote,
 .prose blockquote {
@@ -68,8 +68,8 @@
   color: #0f172a;
 }
 
-.sero-prose ul,
-.sero-prose ol,
+.seoro-prose ul,
+.seoro-prose ol,
 .tiptap ul,
 .tiptap ol,
 .prose-content ul,
@@ -80,7 +80,7 @@
   padding: 0;
 }
 
-.sero-prose ul li,
+.seoro-prose ul li,
 .tiptap ul li,
 .prose-content ul li,
 .prose ul li {
@@ -88,7 +88,7 @@
   margin: 0.35em 0;
 }
 
-.sero-prose ol li,
+.seoro-prose ol li,
 .tiptap ol li,
 .prose-content ol li,
 .prose ol li {
@@ -96,7 +96,7 @@
   margin: 0.35em 0;
 }
 
-.sero-prose code,
+.seoro-prose code,
 .tiptap code,
 .prose-content code,
 .prose code {
@@ -107,7 +107,7 @@
   font-size: 0.95em;
 }
 
-.sero-prose pre,
+.seoro-prose pre,
 .tiptap pre,
 .prose-content pre,
 .prose pre {
@@ -120,7 +120,7 @@
   line-height: 1.6;
 }
 
-.sero-prose img,
+.seoro-prose img,
 .tiptap img,
 .prose-content img,
 .prose img {
@@ -130,7 +130,7 @@
   border-radius: 0;
 }
 
-.sero-prose hr,
+.seoro-prose hr,
 .tiptap hr,
 .prose-content hr,
 .prose hr {
@@ -139,7 +139,7 @@
   margin: 2em 0;
 }
 
-.sero-prose table,
+.seoro-prose table,
 .tiptap table,
 .prose-content table,
 .prose table {
@@ -149,8 +149,8 @@
   font-size: 0.95em;
 }
 
-.sero-prose th,
-.sero-prose td,
+.seoro-prose th,
+.seoro-prose td,
 .tiptap th,
 .tiptap td,
 .prose-content th,
@@ -162,7 +162,7 @@
   text-align: left;
 }
 
-.sero-prose th,
+.seoro-prose th,
 .tiptap th,
 .prose-content th,
 .prose th {
@@ -171,7 +171,7 @@
 }
 
 /* 이미지 합치기 레이아웃 */
-.sero-prose .custom-image-wrapper,
+.seoro-prose .custom-image-wrapper,
 .tiptap .custom-image-wrapper,
 .prose-content .custom-image-wrapper,
 .prose .custom-image-wrapper,
@@ -181,7 +181,7 @@
 }
 
 /* 일반 마우스 hover 효과 */
-.sero-prose .custom-image-wrapper:hover,
+.seoro-prose .custom-image-wrapper:hover,
 .tiptap .custom-image-wrapper:hover,
 .prose-content .custom-image-wrapper:hover,
 .prose .custom-image-wrapper:hover,
@@ -192,7 +192,7 @@
 }
 
 /* 드래그 중 hover 효과 (더 강조) */
-.sero-prose .custom-image-wrapper.drag-hover,
+.seoro-prose .custom-image-wrapper.drag-hover,
 .tiptap .custom-image-wrapper.drag-hover,
 .prose-content .custom-image-wrapper.drag-hover,
 .prose .custom-image-wrapper.drag-hover,
@@ -203,7 +203,7 @@
 }
 
 /* 인라인 이미지들이 포함된 문단에서 공백 제거 */
-.sero-prose p:has(.custom-image-wrapper),
+.seoro-prose p:has(.custom-image-wrapper),
 .tiptap p:has(.custom-image-wrapper),
 .prose-content p:has(.custom-image-wrapper),
 .prose p:has(.custom-image-wrapper),
@@ -212,7 +212,7 @@
   line-height: 0;
 }
 
-.sero-prose p:has(.custom-image-wrapper) > *,
+.seoro-prose p:has(.custom-image-wrapper) > *,
 .tiptap p:has(.custom-image-wrapper) > *,
 .prose-content p:has(.custom-image-wrapper) > *,
 .prose p:has(.custom-image-wrapper) > *,
@@ -221,7 +221,7 @@
   line-height: 1.7;
 }
 
-.sero-prose p:has(.custom-image-wrapper) .custom-image-wrapper,
+.seoro-prose p:has(.custom-image-wrapper) .custom-image-wrapper,
 .tiptap p:has(.custom-image-wrapper) .custom-image-wrapper,
 .prose-content p:has(.custom-image-wrapper) .custom-image-wrapper,
 .prose p:has(.custom-image-wrapper) .custom-image-wrapper,
